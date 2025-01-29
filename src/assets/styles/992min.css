@@ -1,0 +1,285 @@
+@media(min-width:992px){
+    /* section2  */
+    .section2{
+        display: flex;
+        flex-direction: unset;
+        width: 100%;
+    }
+    .section2 .left{
+        width: 70%;
+        padding: 70px 70px 0px 40px;
+    }
+    .section2 .left h1{
+        font-size: 40px;
+    }
+    .section2 .left h3{
+        padding: 40px 0px 10px 0px;
+    }
+    .section2 .left p{
+        font-size: 17px;
+        line-height: 33px;
+    }
+    .section2 .right img{
+        height: 500px;
+        display: block;
+        padding-top: 20px;
+    }
+    .header1{
+        display: none;
+    }
+    /* section3 */
+.section3{
+    padding: 50px 70px 50px 70px;
+    background-color: rgb(243 244 246);
+}
+.section3 .trending{
+    display: flex;
+    flex-direction: unset;
+    width: 99%;
+}
+.section3 .trending h1{
+    width: 90%;
+}
+.section3 .trending h2{
+    display: block;
+    width: 10%;
+}
+.section3 .story1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 30px;
+}
+    /* section4 */
+    .section4{
+        padding: 50px 70px 50px 70px;
+        background-color: rgb(243 244 246);
+    }
+    .section4 .trending{
+        display: flex;
+        flex-direction: unset;
+        width: 99%;
+    }
+    .section4 .trending h1{
+        width: 90%;
+    }
+    .section4 .trending h2{
+    display: block;
+    width: 10%;
+    }
+    .section4 .story1 {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px 30px;
+    }
+    /* section 5 */
+.section5 .trending{
+    display: flex;
+    flex-direction: unset;
+    width: 99%;
+}
+.section5 .trending h1{
+    width: 90%;
+}
+.section5 .trending h2{
+    width: 10%;
+    display: block;
+}
+.section5 .story1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 30px;
+}
+.section6{
+    text-align: center;
+    align-items: center;
+}
+.section6 button{
+    background-color: rgba(109, 102, 102, .2);
+    padding: 0px 5px;
+    font-size: 12px;
+    border-style: none;
+    border-radius: 4px;
+    margin: 5px 3px;
+}
+.section6 button:hover{
+    opacity: .5;
+    transition: .8s all ease;
+}
+/* section 8 */
+.section8 {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 100px;
+    gap: 100px;
+    width: 100%;
+}
+.section8 .grid1 .grid{
+    width: 100%;
+}
+.section8 .grid1 .grid .left{
+    width: 100%;
+}
+.section8 .grid1 .grid .right{
+    width: 0%;
+}
+.section8 .grid1 ul{
+    width: 100%;
+    display: block;
+}
+.section8 .grid1 ul li{
+    list-style: none;
+}
+.section8 .grid1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.section8 .right button{
+    display: none;
+    width: 10%;
+}
+/* footer 1 */
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer1 .grid .before::before{
+    top: 11%;
+    left: 0%;
+}
+/* fooetr 2 */
+.footer2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px 0px 10%;
+}
+.footer2 .left{
+    width: 100%;
+    padding: 0px 0px 0px 32%;
+}
+.footer2 .right{
+    width: 100%;
+    margin-left: 0%;
+}
+.footer2 .right ul{
+    gap: 0px 10px;
+    display: flex;
+    flex-direction: unset;
+}
+/* categories page */
+/* category-sec1 */
+.category-sec1 .story1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 30px;
+}
+/* write page */
+/* write-sec1 */
+.write-sec1{
+    padding: 20px 70px;
+}
+.write-sec1 .content{
+    top: 13%;
+    left: 36%;
+}
+/* write-sec2 */
+.write-sec2{
+    padding: 20px 70px;
+}
+.write-sec2 .main{
+    width: 60%;
+    height: 220px;
+}
+.write-sec2 .main .image a img{
+    height: 150px;
+}
+/* account page */
+/* acount-sec1 */
+.acount-sec1{
+    flex-direction: unset;
+}
+.acount-sec1 .left-header{
+    width: 10%;
+}
+.acount-sec1 .right-content{
+    width: 90%;
+}
+.acount-sec1 .left-header ul{
+    flex-direction: column;
+    margin:20px 0px 20px -30%;
+}
+.acount-sec1 .left-header ul li{
+    padding: 10px 0px 10px 0px;
+}
+.acount-sec1 .left-header ul li a:hover{
+    text-shadow: 9px 9px 10px #474745;
+    color: white;
+    transition: .8s all ease;
+}
+/* message page */
+.acount-sec1 .right-content .message-main1{
+    width: 40%;
+    padding: 20px 10px 20px 10px;
+}
+.acount-sec1 .right-content .message-main2{
+    width: 60%;
+}
+.acount-sec1 .right-content .message-main1 .flex{
+    gap: 40%;
+}
+.acount-sec1 .right-content .message-main1 .flex h1{
+    display: block;
+}
+.acount-sec1 .right-content .message-main1 .flex h2{
+    font-size: 22px;
+    padding: 0px 0px;
+}
+.acount-sec1 .right-content .message-main1 .none{
+    display: flex;
+}
+.acount-sec1 .right-content .message-main1 .copy{
+    padding: 0px 0px 10px 0px;
+}
+.acount-sec1 .right-content .message-main1 .copy .profile{
+    width: 20%;
+    padding: 0px 0px 0px 0px;
+}
+.acount-sec1 .right-content .message-main1 .copy .detail{
+    display: block;
+}
+.acount-sec1 .right-content .message-main2 .icon .round{
+    left: 46%;
+}
+.acount-sec1 .right-content .message-main2 .icon .messanger i{
+    padding: 19px 0px 0px 35px;
+}
+/* frineds page */
+.acount-sec1 .right-content .friends_page .sec1{
+    width: 95%;
+}
+.acount-sec1 .right-content .friends_page .sec1 input{
+    width: 90%;
+    padding-left: 30px;
+}
+.acount-sec1 .right-content .friends_page .members{
+    flex-direction: unset;
+}
+.acount-sec1 .right-content .friends_page .members .member1{
+    width: 30%;
+}
+.acount-sec1 .right-content .friends_page .members .member2{
+    text-align: center;
+    width: 30%;
+}
+.acount-sec1 .right-content .friends_page .members .member3{
+    text-align: end;
+    width: 30%;
+}
+.acount-sec1 .right-content .friends_page .sec2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.acount-sec1 .right-content .friends_page .sec2 .profileee .followers{
+    padding: 0px 25% 20px 25%;
+}
+}
