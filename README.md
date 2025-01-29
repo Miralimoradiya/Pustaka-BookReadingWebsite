@@ -74,10 +74,6 @@ This project is deployed on Netlify. You can visit the live version of the site 
 
 If you'd like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Please make sure to follow the existing coding style and write tests if applicable.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 - **React:** For making the development of the UI easy and efficient.
