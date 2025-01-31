@@ -3,6 +3,7 @@
 Pustaka is a web-based online book reading platform where users can read, write, and interact with other book lovers. It's inspired by the design and functionality of Pratilipi, built using React, Bootstrap, FontAwesome, and React Icons. This project serves as a practice exercise to simulate the experience of a real-world book reading platform.
 
 You can view the live site at [Pustaka](https://pustaka-bookreading-miralimoradiya.netlify.app/).
+you can view my **[portfolio](https://portfolio-miralimoradiya.netlify.app/)**.
 
 ## Features
 
